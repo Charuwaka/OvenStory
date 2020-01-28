@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvenStory", "OvenStory.csproj", "{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{1652D7FD-9971-4B3E-95E0-FC0E9E71318B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4107E0-6BFD-41CF-AEF3-9904B3A431CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1652D7FD-9971-4B3E-95E0-FC0E9E71318B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1652D7FD-9971-4B3E-95E0-FC0E9E71318B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1652D7FD-9971-4B3E-95E0-FC0E9E71318B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1652D7FD-9971-4B3E-95E0-FC0E9E71318B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB8D0AE9-79DB-4081-9256-17BB89C5A38D}
+	EndGlobalSection
+EndGlobal
