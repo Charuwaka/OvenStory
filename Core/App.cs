@@ -1,6 +1,7 @@
 ﻿using Acr.UserDialogs;
 using MvvmCross;
 using MvvmCross.IoC;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using System;
 
@@ -19,7 +20,7 @@ namespace Core
                 .EndingWith("Client")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
+            
             Mvx.IoCProvider.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
 
             // register the appstart object

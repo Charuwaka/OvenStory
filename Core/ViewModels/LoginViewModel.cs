@@ -1,4 +1,5 @@
 ﻿using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,10 @@ namespace Core.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        
         public LoginViewModel()
         {
+           
         }
 
         public override void Prepare()
@@ -30,14 +33,11 @@ namespace Core.ViewModels
         private void ResetText()
         {
             Text = "Hello MvvmCross";
+            _navigationService.Navigate(typeof(HomeViewModel));
+
         }
 
-        private string _text = "Hello MvvmCross";
-        public string Text
-        {
-            get { return _text; }
-            set { SetProperty(ref _text, value); }
-        }
+        
     
 
     }
